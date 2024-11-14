@@ -10,6 +10,7 @@ It is a project built with Laravel, Vue.js, and Tailwind that allows you to secu
 - Laravel 10.x (or higher)
 - Vue.js
 - Tailwind
+- wkhtmltopdf (required for PDF generation)
 
 ## Project Setup
 
@@ -24,7 +25,11 @@ To get started, follow these steps:
      - `php artisan key:generate`
      - `npm install`
 
-3. The project is now ready to use.
+3. **Install wkhtmltopdf (required for PDF generation)**:
+   - Install wkhtmltopdf on your system. You can download it from www.wkhtmltopdf.org/downloads.
+   - After installation, configure the ['pdf']['binary'] in config/snappy.php to the installation path of wkhtmltopdf
+
+4. The project is now ready to use.
 
 ## License
 
