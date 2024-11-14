@@ -8,6 +8,8 @@ It is a project built with Laravel, Vue.js, and Tailwind that allows you to secu
 - Composer
 - Node.js (which includes NPM)
 - Laravel 10.x (or higher)
+- Vue.js
+- Tailwind
 
 ## Project Setup
 
